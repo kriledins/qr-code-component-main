@@ -13,23 +13,25 @@
     body {font-family: "Outfit", sans-serif; background-color: hsl(212, 45%, 89%);}
     p {font-size: 15px; font-weight: 400; color: hsl(220, 15%, 55%)}
     h1 {font-size: 20px; font-weight: 700; color: hsl(218, 44%, 22%)}
+    div#card-attr {position: absolute; top: 50%; margin: 0; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); left: 50%; }
     div#card {background-color: hsl(0, 0%, 100%); padding: 15px; width: 250px; border-radius: 15px; text-align: center;}
     img {max-width: 100%; height: auto; border-radius: 10px;}
-    .attribution { font-size: 11px; text-align: left; }
+    .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 
-<div id="card">
-  <img id="qr" src="images/image-qr-code.png"/>
-  <h1>Improve your front-end skills by building projects</h2>
-  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-</div>
-
+<div id="card-attr">
+  <div id="card">
+    <img id="qr" src="images/image-qr-code.png"/>
+    <h1>Improve your front-end skills by building projects</h2>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://c.tenor.com/7lQg4dPNjpYAAAAd/eyebrows-adventure-time.gif">KL</a>.
   </div>
+</div>
 </body>
 </html>
