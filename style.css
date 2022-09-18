@@ -12,7 +12,7 @@ h1 {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
-#card-attr {
+.card-attr {
     position: absolute;
     top: 50%;
     margin: 0;
@@ -20,7 +20,7 @@ h1 {
     -ms-transform: translate(-50%, -50%);
     left: 50%;
 }
-#card {
+.card {
     background-color: hsl(0, 0%, 100%);
     padding: 15px;
     width: 250px;
